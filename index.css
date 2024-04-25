@@ -1,15 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Permanent Marker', cursive, Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
   min-height: 100vh;
   min-width: 100vw;
   display: flex;
   flex-direction: column;
+  background-color: hsl(255, 92%, 76%);
+  color: #082f49;
+}
+header,
+footer {
+  text-align: center;
+}
+header {
+  font-size: 1.8rem;
+  font-style: italic;
 }
 main {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+}
+footer {
+  font-size: 1.3rem;
+  font-weight: 600;
 }
